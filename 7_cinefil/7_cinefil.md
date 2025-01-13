@@ -29,11 +29,11 @@ Qüestions
 
 
 Pel·licula (<ins>Id_peli</ins>, Nom, any, pressupost, director, Id_tema, Id_companyia) <br>
-Tema (<ins>Codi_linia</ins>, Nom) <br>
-TemaXAct (<ins>Id_tema, Id_actor</ins>habilitat) <br>
-Actor(<ins>Id_estació</ins>, Paper, Premis) <br>
+Tema (<ins>Id_tema</ins>, Nom) <br>
+TemaXAct (<ins>Id_tema, Id_actor</ins>, habilitat) <br>
+Actor(<ins>Id_actor</ins>, Paper, Premis) <br>
 Subs(<ins>Id_actor, Id_actor_subs</ins>, grau) <br>
-Compatible (<ins> Id_actor, Id_actor_compatible </ins>) <br>
+Compatible (<ins>Id_actor, Id_actor_compatible </ins>) <br>
 Companyia(<ins>Id_companyia</ins>, Nom) <br>
 Ciutat (<ins>Id_ciutat</ins>, Nom) <br>
 Representació (<ins>Id_ciutat, Id_companyia</ins>) <br>
